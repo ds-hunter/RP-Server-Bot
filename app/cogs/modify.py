@@ -168,11 +168,6 @@ class Modify(commands.Cog):
             await interaction.response.send_message(f'Spent {amount} Ryo from {charactername}!')
         else:
             await interaction.response.send_message(f'Failed to spend {amount} Ryo from {charactername}. Does the character exist?', ephemeral=True)
-    @app_commands.command(name="test", description="Test command")
-    @app_commands.guild_only()
-    async def test(self, interaction: Interaction, playermention: str):
-        id = playermention.replace("<@", "").replace(">", "")
-        await interaction.response.send_message(f"Hello, this is what I received: {id}")
 
     # Add level up command (def get_level(charactername, playername)
     @app_commands.command(name="levelup", description="Use SP to level up a character")
