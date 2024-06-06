@@ -25,3 +25,9 @@ POSTGRES_DB name you will also need to change the DB_NAME in the .env. After you
 have done this you will need to add your discord bot token to the .env BOT_TOKEN entry.
 
 That is all that should be required for setup!
+
+### Running the bot
+Using terminal, navigate to the top-level directory of the project and use the command
+```
+docker-compose up
+```
