@@ -2,9 +2,13 @@
 This is now an unused project that I am using as a demonstration of experience using Docker, PostgreSQL, and the discord.py library to program a discord bot for an RP server that allowed them to track and save character data within their discord server. Assistance setting the bot up on a VPS was provided.
 
 [Program entry point](app/main.py)
+
 [Database interactions code](app/database.py)
+
 [Bot commands that modified the database](app/cogs/modify.py)
+
 [Bot commands that requested information from the database](app/cogs/request.py)
+
 [Database schema](database/db-scheme.sql)
 
 ### Installation
